@@ -44,10 +44,8 @@ Please select a option to continue...\n
 """)
     playlists=listdir(getcwd())
     r=[
-        'termix.config',
         'ignore',
         'player.json',
-        'termixlog.txt',
         'termix.log'
     ]
     for i in r:
