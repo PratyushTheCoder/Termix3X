@@ -59,6 +59,9 @@ if action == 1:
     chdir(getcwd()+f"/{playlists[choice-1]}")
     # print(getcwd())
     system(play)
+elif action==2:
+    chdir(getcwd()+f'/{lastplayed}')
+    system(play)
 else:
     print()
     print("Exitting...")
