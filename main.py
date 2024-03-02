@@ -20,6 +20,7 @@ else:
     with open(getcwd() + "/termix.json", "w+") as f:
         json.dump(configTemplate,f) 
         f.close()
+    exit(0)
 
 def termix():
     chdir(musicdir)
