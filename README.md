@@ -26,6 +26,19 @@ For Windows
 ```bash
   source env/bin/active.ps1
 ```
+### To Run
+
+Running the file for the first time would create the config files and running it again would start the app
+
+```bash
+python main.py
+```
+To reconfig the config files
+
+```bash
+python main.py reconfig
+```
+
 #
 To deactivate the env
 
