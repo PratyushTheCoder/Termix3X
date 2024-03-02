@@ -58,10 +58,14 @@ if action == 1:
         json.dump(lastplayed,f)
     chdir(getcwd()+f"/{playlists[choice-1]}")
     # print(getcwd())
+    print()
     system(play)
+
 elif action==2:
     chdir(getcwd()+f'/{lastplayed}')
+    print()
     system(play)
+    
 else:
     print()
     print("Exitting...")
