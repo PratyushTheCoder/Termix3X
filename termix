@@ -1,3 +1,4 @@
 #!/bin/sh
 
+clear
 python3 "/home/pratyush/Documents/Programming/Python/Termix3X/main.py" $1
