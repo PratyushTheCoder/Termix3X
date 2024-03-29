@@ -13,10 +13,21 @@ if path.exists(getcwd() + "/termix.json"):
         f.close()
 
 else:
+    print("""
+         _,-'"'-._
+       .'         `-._
+     .'  _   _  _   _  `.
+    | @ | | | | | | | | |  |
+     '-._| | | | | | | |_.-'
+       `-._| | | | | |_.-'
+         `-._| | |_.-'
+            `-._.-'
+
+    Termix(4.0.1) - Music for your CLI\n""")
     print("Termix config file not found creating one...")
     musicdir=input("Please enter the directory path of your music folder: ")
     play=input("Please specify the play command: ")
-    configTemplate = {"version":"3.4.5","musicdir":f"{musicdir}","play":f"{play}"}
+    configTemplate = {"version":"4.0.1","musicdir":f"{musicdir}","play":f"{play}"}
     with open(getcwd() + "/termix.json", "w+") as f:
         json.dump(configTemplate,f) 
         f.close()
@@ -34,7 +45,17 @@ def termix():
         with open('./player.json','w+') as f:
             json.dump(lastplayed,f)
             f.close()
-    print(f"""Welcome to Termix3X ({version})\n
+    print(f"""
+         _,-'"'-._
+       .'         `-._
+     .'  _   _  _   _  `.
+    | @ | | | | | | | | |  |
+     '-._| | | | | | | |_.-'
+       `-._| | | | | |_.-'
+         `-._| | |_.-'
+            `-._.-'
+
+    Termix({version}) - Music for your CLI\n
 Please select a option to continue...\n
 1. Select a playlist to play from 
 2. Continue from last played ({lastplayed})
