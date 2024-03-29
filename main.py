@@ -127,7 +127,7 @@ if len(argv) > 1:
     if argv[1]=="reconfig":
         musicdir=input("Please enter the directory path of your music folder: ")
         play=input("Please specify the play command: ")
-        configTemplate = {"version":"3.4.5","musicdir":f"{musicdir}","play":f"{play}"}
+        configTemplate = {"version":"4.0.1","musicdir":f"{musicdir}","play":f"{play}"}
         with open(getcwd() + "/termix.json", "w+") as f:
             json.dump(configTemplate,f) 
             f.close()
