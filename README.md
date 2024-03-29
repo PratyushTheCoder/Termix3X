@@ -1,7 +1,15 @@
 # Termix3X
 
-A terminal music player made specially for developers
+         _,-'"'-._
+       .'         `-._
+     .'  _   _  _   _  `.
+    | @ | | | | | | | | |  |
+     '-._| | | | | | | |_.-'
+       `-._| | | | | |_.-'
+         `-._| | |_.-'
+            `-._.-'
 
+    Termix - Music for your CLI
 
 ## Installation
 
