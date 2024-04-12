@@ -21,12 +21,13 @@ else:
     | |/ _ \ '__| '_ ` _ \| \ \/ /
     | |  __/ |  | | | | | | |>  < 
     |_|\___|_|  |_| |_| |_|_/_/\_\
-         
-    Termix(4.2.1) - Music for your CLI\n""")
+        
+
+    Termix(4.2.2) - Music for your CLI\n""")
     print("Termix config file not found creating one...")
     musicdir=input("Please enter the directory path of your music folder: ")
     play=input("Please specify the play command: ")
-    configTemplate = {"version":"4.2.1","musicdir":f"{musicdir}","play":f"{play}"}
+    configTemplate = {"version":"4.2.2","musicdir":f"{musicdir}","play":f"{play}"}
     with open(getcwd() + "/termix.json", "w+") as f:
         json.dump(configTemplate,f) 
         f.close()
@@ -52,7 +53,8 @@ def termix():
     | |/ _ \ '__| '_ ` _ \| \ \/ /
     | |  __/ |  | | | | | | |>  < 
     |_|\___|_|  |_| |_| |_|_/_/\_\
-                                  
+        
+
     Termix({version}) - Music for your CLI\n
 Please select a option to continue...\n
 1. Select a playlist to play from 
