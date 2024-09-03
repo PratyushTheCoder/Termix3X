@@ -1,15 +1,8 @@
 # Termix3X
-  _______                  _      
- |__   __|                (_)     
-    | | ___ _ __ _ __ ___  ___  __
-    | |/ _ \ '__| '_ \ _ \| \ \/ /
-    | |  __/ |  | | | | | | |>  < 
-    |_|\___|_|  |_| |_| |_|_/_/\_\
-                                  
-                           
 
-    Termix - Music for your CLI
-
+![Logo](images/logo.png)
+   
+- The build application is now available!
 ## Installation
 
 ### Clone the project
