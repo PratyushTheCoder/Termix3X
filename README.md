@@ -45,7 +45,8 @@ To deactivate the env
 ```bash
   deactivate
 ```
-
+#
+- Now you can also download the build file and run it directly (having all the dependecies installed)
 #
 
 
